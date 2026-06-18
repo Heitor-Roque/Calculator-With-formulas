@@ -1,53 +1,77 @@
-# Calculator-With-formulas
-Desenvolvimento de uma calculadora com as seguintes fórmulas:
+ Calculadora Avançada — Java
 
-Área do triângulo: (b * h) / 2
-Área do quadrado: l1 * l2
-Área do retângulo: a * l1
-Área do losango: (D * d) / 2
-Perímetro do triângulo: l1 + l2 + l
-Perímetro do quadrado: 4 * l
-Perímetro do retângulo: 2 * (A + l)
-Área do círculo: π * r²
-Delta (Δ): b² - 4ac
-Bhaskara (x1): (-b + √Δ) / (2a)
-Bhaskara (x2): (-b - √Δ) / (2a)
-Soma: numero1 + numero2
-Subtração: numero1 - numero2
-Multiplicação: numero1 * numero2
-Divisão: numero1 / numero2
-Progressão Geométrica (soma): a1 * (qⁿ - 1) / (q - 1)
-Progressão Geométrica (termo geral): a1 * qⁿ⁻¹
-Progressão Aritmética (soma): (n / 2) * (2a1 + (n - 1) * r)
-Juros compostos: C * (1 + i/100)ᵗ
-Juros simples: C * (i/100) * t
+Calculadora de linha de comando com múltiplas categorias de cálculo, desenvolvida em Java com navegação por menus interativos.
 
-Translated to english
+Desenvolvida como projeto prático durante o curso Técnico em Desenvolvimento de Sistemas — SESI-SENAI.
 
-Development of a calculator with the following formulas:
 
-Triangle area: (b * h) / 2
-Square area: l1 * l2
-Rectangle area: a * l1
-Rhombus area: (D * d) / 2
-Triangle perimeter: l1 + l2 + l
-Square perimeter: 4 * l
-Rectangle perimeter: 2 * (A + l)
-Circle area: π * r²
+ Funcionalidades
 
-Delta (Δ): b² - 4ac
-Bhaskara (x1): (-b + √Δ) / (2a)
-Bhaskara (x2): (-b - √Δ) / (2a)
+ Geometria
 
-Addition: number1 + number2
-Subtraction: number1 - number2
-Multiplication: number1 * number2
-Division: number1 / number2
 
-Geometric Progression (sum): a1 * (qⁿ - 1) / (q - 1)
-Geometric Progression (nth term): a1 * qⁿ⁻¹
+Área: triângulo, quadrado, retângulo, losango, círculo
+Perímetro: triângulo, quadrado, retângulo
 
-Arithmetic Progression (sum): (n / 2) * (2a1 + (n - 1) * r)
 
-Compound interest: C * (1 + i/100)ᵗ
-Simple interest: C * (i/100) * t
+ Cálculo
+
+
+Cálculo básico (+, −, ×, ÷)
+Delta (Δ = b² − 4ac)
+Bhaskara completo (x¹ e x² ou raiz única)
+
+
+ Financeiro
+
+
+Juros simples
+Juros compostos
+Progressão Aritmética (PA)
+Progressão Geométrica (PG)
+
+
+
+ Tecnologias utilizadas
+
+
+Java SE
+java.util.Scanner — entrada do usuário
+java.lang.Math — funções matemáticas
+
+
+
+ Estrutura
+
+calculadoras/
+├── Calculadora.java        # Calculadora avançada (geometria, cálculo, financeiro)
+└── CalculadoraBasica.java  # Calculadora com as 4 operações básicas
+
+
+ Como executar
+
+Pré-requisito: JDK instalado
+
+bash# Compilar
+javac calculadoras/Calculadora.java
+
+# Executar
+java calculadoras.Calculadora
+
+
+ Exemplo de uso
+
+___Calculadora___
+Digite 1 para continuar
+Digite 0 para finalizar
+Escolha uma opção: 1
+
+___CATEGORIAS___
+Digite 1 para geometria
+Digite 2 para calculo
+Digite 3 para financeiro
+
+
+👤 Autor
+
+Heitor Roque

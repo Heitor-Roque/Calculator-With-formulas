@@ -1,40 +1,49 @@
-# Sistema de Cadastro de Clientes
+# Calculadora Multifuncional em Java
 
-Projeto desenvolvido para praticar integração entre PHP e MySQL, realizando o cadastro e armazenamento de informações relacionadas a clientes, veículos e fornecedores.
+Aplicação desenvolvida em Java com o objetivo de centralizar cálculos matemáticos, geométricos e financeiros em uma única interface de terminal.
 
 ## Objetivo
 
-Desenvolver uma aplicação capaz de receber informações através de formulários web, validar os dados recebidos e persistir as informações em um banco de dados relacional.
-
-## Tecnologias Utilizadas
-
-- PHP
-- MySQL
-- HTML5
-- CSS3
+Praticar lógica de programação, estruturas condicionais, organização de menus e manipulação de entradas do usuário.
 
 ## Funcionalidades
 
-- Cadastro de clientes
-- Cadastro de veículos
-- Cadastro de fornecedores
-- Integração com banco de dados MySQL
-- Tratamento de erros de conexão
-- Feedback visual para sucesso ou falha nas operações
+### Geometria
+
+- Área do triângulo
+- Área do quadrado
+- Área do retângulo
+- Área do losango
+- Área do círculo
+- Perímetros
+
+### Matemática
+
+- Bhaskara
+- Delta
+- Operações básicas
+
+### Financeiro
+
+- Progressão Aritmética (PA)
+- Progressão Geométrica (PG)
+- Juros simples
+- Juros compostos
+
+## Tecnologias Utilizadas
+
+- Java
+- Scanner
+- Estruturas condicionais
+- Laços de repetição
+
+## Desafios Enfrentados
+
+- Organização de múltiplos menus
+- Validação de entradas
+- Estruturação do fluxo de navegação
+- Separação das categorias de cálculo
 
 ## Aprendizados
 
-Durante o desenvolvimento deste projeto foram praticados conceitos como:
-
-- Conexão entre PHP e banco de dados
-- Manipulação de formulários
-- Estruturação de consultas SQL
-- Tratamento de erros
-- Organização de interface para retorno ao usuário
-
-## Próximas Melhorias
-
-- Utilização de Prepared Statements
-- Sistema de autenticação
-- CRUD completo
-- Estrutura MVC
+Este projeto foi importante para consolidar conceitos fundamentais de lógica de programação e estruturação de sistemas baseados em menus.

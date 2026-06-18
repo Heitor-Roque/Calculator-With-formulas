@@ -1,77 +1,40 @@
- Calculadora Avançada — Java
+# Sistema de Cadastro de Clientes
 
-Calculadora de linha de comando com múltiplas categorias de cálculo, desenvolvida em Java com navegação por menus interativos.
+Projeto desenvolvido para praticar integração entre PHP e MySQL, realizando o cadastro e armazenamento de informações relacionadas a clientes, veículos e fornecedores.
 
-Desenvolvida como projeto prático durante o curso Técnico em Desenvolvimento de Sistemas — SESI-SENAI.
+## Objetivo
 
+Desenvolver uma aplicação capaz de receber informações através de formulários web, validar os dados recebidos e persistir as informações em um banco de dados relacional.
 
- Funcionalidades
+## Tecnologias Utilizadas
 
- Geometria
+- PHP
+- MySQL
+- HTML5
+- CSS3
 
+## Funcionalidades
 
-Área: triângulo, quadrado, retângulo, losango, círculo
-Perímetro: triângulo, quadrado, retângulo
+- Cadastro de clientes
+- Cadastro de veículos
+- Cadastro de fornecedores
+- Integração com banco de dados MySQL
+- Tratamento de erros de conexão
+- Feedback visual para sucesso ou falha nas operações
 
+## Aprendizados
 
- Cálculo
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
+- Conexão entre PHP e banco de dados
+- Manipulação de formulários
+- Estruturação de consultas SQL
+- Tratamento de erros
+- Organização de interface para retorno ao usuário
 
-Cálculo básico (+, −, ×, ÷)
-Delta (Δ = b² − 4ac)
-Bhaskara completo (x¹ e x² ou raiz única)
+## Próximas Melhorias
 
-
- Financeiro
-
-
-Juros simples
-Juros compostos
-Progressão Aritmética (PA)
-Progressão Geométrica (PG)
-
-
-
- Tecnologias utilizadas
-
-
-Java SE
-java.util.Scanner — entrada do usuário
-java.lang.Math — funções matemáticas
-
-
-
- Estrutura
-
-calculadoras/
-├── Calculadora.java        # Calculadora avançada (geometria, cálculo, financeiro)
-└── CalculadoraBasica.java  # Calculadora com as 4 operações básicas
-
-
- Como executar
-
-Pré-requisito: JDK instalado
-
-bash# Compilar
-javac calculadoras/Calculadora.java
-
-# Executar
-java calculadoras.Calculadora
-
-
- Exemplo de uso
-
-___Calculadora___
-Digite 1 para continuar
-Digite 0 para finalizar
-Escolha uma opção: 1
-
-___CATEGORIAS___
-Digite 1 para geometria
-Digite 2 para calculo
-Digite 3 para financeiro
-
-
-👤 Autor
-
-Heitor Roque
+- Utilização de Prepared Statements
+- Sistema de autenticação
+- CRUD completo
+- Estrutura MVC
